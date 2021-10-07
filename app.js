@@ -22,7 +22,7 @@ function start(){
 start();
 const db = mongoose.connection;
 db.once('open', () =>{
-    console.log('Kpav');
+    console.log('Started');
 });
 
 const userSchema = new mongoose.Schema({
